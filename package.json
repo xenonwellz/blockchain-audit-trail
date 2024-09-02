@@ -1,0 +1,16 @@
+{
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "cd client && vite dev",
+    "build": "cd client && vite build"
+  },
+  "dependencies": {
+    "truffle": "^5.11.5",
+    "web3": "^4.12.1",
+    "webpack": "^5.94.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  }
+}

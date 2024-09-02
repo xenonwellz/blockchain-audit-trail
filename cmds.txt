@@ -1,0 +1,7 @@
+npm i -g ganache-cli
+npm i -g yarn
+npm i -g truffle
+ganache-cli --deterministic --mnemonic "horn hammer original lemon chapter weird gun pond fortune blush cupboard cat" -i 5777
+yarn
+truffle migrate --fresh
+yarn dev
